@@ -52,7 +52,7 @@ The project allows users to register through the Django admin panel and then log
 
 1. **Clone the frontend repository:**
     ```bash
-    git clone <your-frontend-repo-url> cloneproject
+    git clone <your-frontend-repo-url> Cloneproject
     cd cloneproject
     ```
 
