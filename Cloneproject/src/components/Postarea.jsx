@@ -239,7 +239,7 @@ const Post = () => {
           <div>
             {post.comments.map((comment, index) => (
               <div key={index} className="border-t border-gray-200 pt-4">
-                <p className="text-gray-700">{comment.user.username}: {comment.comment}</p>
+                <p className="text-gray-700"><strong>{comment.user.username}</strong>: {comment.comment}</p>
               </div>
             ))}
             <div>
